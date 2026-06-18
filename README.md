@@ -1,2 +1,2 @@
 # cybersecurity-lab-portfolio
-My hands-on cybersecurity lab notes, SOC investigations, Wazuh practice, and networking fundamentals.
+This repository documents my hands-on journey toward SOC Analyst roles, including Windows Event Logs, Active Directory, Sysmon, Wazuh, and networking fundamentals.
