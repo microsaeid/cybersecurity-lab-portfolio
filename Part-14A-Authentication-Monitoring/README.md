@@ -24,4 +24,8 @@ I’m specifically focusing on these three Event IDs:
 *Work in progress—I’ll be adding these in a future update.*
 
 ## Screenshots
-*Work in progress—I’ll be adding these in a future update.*
+
+### Authentication Events Overview
+### Failed Logon (Event ID 4625)
+### Account Lockout (Event ID 4740)
+### Successful Logon (Event ID 4624)
