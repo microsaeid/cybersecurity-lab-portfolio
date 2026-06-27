@@ -65,16 +65,16 @@ These techniques represent common discovery activities performed by attackers af
 
 ### Executed PowerShell Commands
 
-![PowerShell Commands](screenshots/01-PowerShell-Commands.png)
+![PowerShell Commands](./screenshots/01-PowerShell-Commands.png)
 
 ### Event ID 4104 Overview
 
-![Event 4104 Overview](screenshots/02-Event-4104-Overview.png)
+![Event 4104 Overview](./screenshots/02-Event-4104-Overview.png)
 
 ### Rule 91815 – Process Discovery
 
-![Rule 91815](screenshots/03-Rule-91815-Process-Discovery.png)
+![Rule 91815](./screenshots/03-Rule-91815-Process-Discovery.png)
 
 ### Rule 91819 – File and Directory Discovery
 
-![Rule 91819](screenshots/04-Rule-91819-File-Discovery.png)
+![Rule 91819](./screenshots/04-Rule-91819-File-Discovery.png)
