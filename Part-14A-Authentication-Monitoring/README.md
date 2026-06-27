@@ -49,6 +49,7 @@ This lab clearly demonstrated why authentication logs are among the first places
 
 ## Screenshots
 * Authentication Events Overview
+![Authentication Events Overview](./screenshots/01-events-overview.png)
 * Failed Logon (Event ID 4625)
 * Account Lockout (Event ID 4740)
 * Successful Logon (Event ID 4624)
