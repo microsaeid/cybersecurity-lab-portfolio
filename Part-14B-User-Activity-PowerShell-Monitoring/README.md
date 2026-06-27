@@ -10,7 +10,6 @@ This project documents my hands-on lab focused on monitoring Windows user activi
 - Monitor PowerShell execution
 - Analyze Windows Event Logs
 - Investigate security events using Wazuh
-- Build practical SOC investigation skills
 
 ## Lab Environment
 
