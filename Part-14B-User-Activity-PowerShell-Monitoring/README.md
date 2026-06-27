@@ -78,3 +78,9 @@ These techniques represent common discovery activities performed by attackers af
 ### Rule 91819 – File and Directory Discovery
 
 ![Rule 91819](./screenshots/04-Rule-91819-File-Discovery.png)
+
+## Conclusion
+
+This lab demonstrates how native PowerShell activity can be monitored using Windows PowerShell Operational Logs and Wazuh SIEM. By enabling Script Block Logging (Event ID 4104), PowerShell commands were successfully captured, correlated with Wazuh detection rules, and mapped to MITRE ATT&CK techniques.
+
+Although the executed commands were legitimate administrative actions, the same techniques are frequently used by attackers during the discovery phase of an intrusion. This highlights the importance of monitoring PowerShell activity as part of a SOC analyst's investigation workflow.
