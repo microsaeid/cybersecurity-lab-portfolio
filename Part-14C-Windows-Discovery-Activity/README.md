@@ -77,3 +77,16 @@ These detections demonstrate how common Windows administrative commands can be m
 
 ![Rule 92052](screenshots/04-command-prompt-rule-92052.png)
 
+## MITRE ATT&CK Mapping
+
+| Technique ID | Technique | Description |
+|--------------|-----------|-------------|
+| T1087 | Account Discovery | Commands such as `net user` were used to enumerate local user accounts. |
+| T1069.001 | Local Groups Discovery | `net localgroup` was used to enumerate local security groups. |
+| T1069.002 | Domain Groups Discovery | `net localgroup administrators` revealed domain administrator group membership. |
+| T1016 | System Network Configuration Discovery | `ipconfig` was used to gather network configuration information. |
+| T1018 | Remote System Discovery | `ping` was used to verify network connectivity. |
+| T1016 | System Network Configuration Discovery | `nslookup` was used to query DNS information. |
+| T1049 | System Network Connections Discovery | `netstat` was used to view active network connections. |
+| T1057 | Process Discovery | `tasklist` was used to enumerate running processes. |
+
