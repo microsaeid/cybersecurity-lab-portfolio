@@ -88,6 +88,13 @@ These techniques represent common discovery activities performed by attackers af
 
 ![Rule 91819](./screenshots/04-Rule-91819-File-Discovery.png)
 
+## Key Takeaways
+
+- PowerShell logging provides detailed visibility into executed commands.
+- Event ID 4104 helps investigators review PowerShell script block activity.
+- Wazuh can detect and monitor PowerShell execution using built-in detection rules.
+- PowerShell telemetry is valuable for identifying both legitimate administration and potentially malicious activity.
+
 ## Conclusion
 
 This lab demonstrates how native PowerShell activity can be monitored using Windows PowerShell Operational Logs and Wazuh SIEM. By enabling Script Block Logging (Event ID 4104), PowerShell commands were successfully captured, correlated with Wazuh detection rules, and mapped to MITRE ATT&CK techniques.
