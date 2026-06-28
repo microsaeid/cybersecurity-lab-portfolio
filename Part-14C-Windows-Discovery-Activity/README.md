@@ -6,6 +6,15 @@ This project documents a hands-on lab where I generated common Windows discovery
 
 The objective was to understand how basic system and network discovery commands appear in endpoint telemetry and how they can be analyzed during a security investigation.
 
+| Category | Value |
+|----------|-------|
+| Platform | Windows 10 |
+| SIEM | Wazuh 4.14 |
+| Data Source | Sysmon (Event ID 1) |
+| Focus | Windows Discovery Activity |
+| MITRE ATT&CK | T1087, T1069.001, T1069.002, T1016, T1018, T1049, T1057 |
+| Lab Type | Active Directory Home Lab |
+
 ## Objectives
 
 - Generate common Windows discovery activity using built-in command-line tools.
@@ -14,7 +23,7 @@ The objective was to understand how basic system and network discovery commands 
 - Understand how normal administrative commands can also appear during attacker reconnaissance.
 - Practice documenting findings in a structured SOC investigation format.
 
-- ## Lab Environment
+## Lab Environment
 
 | Component | Details |
 |----------|---------|
@@ -56,7 +65,7 @@ After executing the Windows discovery commands, Wazuh successfully detected and 
 The investigation identified the following detection rules:
 
 - **Rule 92031** – Discovery activity executed
-- **Rule 92033** – Discovery activity spawned via PowerShell execution
+- **Rule 92033** – Discovery activity detected through Wazuh correlation (Rule 92033)
 - **Rule 92052** – Windows command prompt started by an abnormal process
 
 These detections demonstrate how common Windows administrative commands can be monitored and analyzed during endpoint investigations.
