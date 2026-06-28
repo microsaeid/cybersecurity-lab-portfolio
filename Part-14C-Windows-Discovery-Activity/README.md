@@ -61,3 +61,19 @@ The investigation identified the following detection rules:
 
 These detections demonstrate how common Windows administrative commands can be monitored and analyzed during endpoint investigations.
 
+### Threat Hunting Overview
+
+![Threat Hunting Overview](screenshots/01-threat-hunting-overview.png)
+
+### Rule 92031 – Discovery Activity Executed
+
+![Rule 92031](screenshots/02-discovery-activity-rule-92031.png)
+
+### Rule 92033 – Discovery Activity via PowerShell
+
+![Rule 92033](screenshots/03-powershell-discovery-rule-92033.png)
+
+### Rule 92052 – Command Prompt Started by an Abnormal Process
+
+![Rule 92052](screenshots/04-command-prompt-rule-92052.png)
+
