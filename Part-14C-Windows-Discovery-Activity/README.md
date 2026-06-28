@@ -24,3 +24,27 @@ The objective was to understand how basic system and network discovery commands 
 | Domain Controller | Windows Server 2022 |
 | Monitoring Tool | Sysmon |
 | Lab Type | Active Directory Home Lab |
+
+## Investigation Steps
+
+### Step 1 — Generate Windows Discovery Activity
+
+On the Windows 10 endpoint, I executed several built-in Windows commands to generate discovery-related activity.
+
+The following commands were executed:
+
+```cmd
+whoami
+hostname
+ipconfig
+ping 8.8.8.8 -n 4
+nslookup google.com
+net user
+net localgroup
+net localgroup administrators
+netstat -ano
+tasklist
+tasklist /svc
+```
+
+These commands generated Sysmon Process Create (Event ID 1) events that were forwarded to Wazuh for analysis.
