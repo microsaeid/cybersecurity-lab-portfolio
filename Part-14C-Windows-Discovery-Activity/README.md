@@ -23,17 +23,6 @@ The objective was to understand how basic system and network discovery commands 
 - Understand how normal administrative commands can also appear during attacker reconnaissance.
 - Practice documenting findings in a structured SOC investigation format.
 
-## Lab Environment
-
-| Component | Details |
-|----------|---------|
-| Host OS | Ubuntu Desktop 24.04 LTS |
-| SIEM | Wazuh 4.14 |
-| Endpoint | Windows 10 |
-| Domain Controller | Windows Server 2022 |
-| Monitoring Tool | Sysmon |
-| Lab Type | Active Directory Home Lab |
-
 ## Investigation Steps
 
 ### Step 1 — Generate Windows Discovery Activity
