@@ -48,3 +48,16 @@ tasklist /svc
 ```
 
 These commands generated Sysmon Process Create (Event ID 1) events that were forwarded to Wazuh for analysis.
+
+## Detection Results
+
+After executing the Windows discovery commands, Wazuh successfully detected and categorized the generated activity based on Sysmon Process Create (Event ID 1).
+
+The investigation identified the following detection rules:
+
+- **Rule 92031** – Discovery activity executed
+- **Rule 92033** – Discovery activity spawned via PowerShell execution
+- **Rule 92052** – Windows command prompt started by an abnormal process
+
+These detections demonstrate how common Windows administrative commands can be monitored and analyzed during endpoint investigations.
+
