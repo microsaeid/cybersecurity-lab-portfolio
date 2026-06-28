@@ -90,3 +90,11 @@ These detections demonstrate how common Windows administrative commands can be m
 | T1049 | System Network Connections Discovery | `netstat` was used to view active network connections. |
 | T1057 | Process Discovery | `tasklist` was used to enumerate running processes. |
 
+## Conclusion
+
+This lab demonstrated how common Windows discovery commands generate valuable endpoint telemetry that can be monitored using Sysmon and analyzed in Wazuh.
+
+Although the executed commands were legitimate administrative tools, Wazuh successfully detected and categorized the activity using multiple detection rules aligned with the MITRE ATT&CK framework.
+
+This exercise improved my understanding of endpoint visibility, process monitoring, and how seemingly normal commands can also be indicators of reconnaissance activity during a security investigation.
+
