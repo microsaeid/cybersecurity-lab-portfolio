@@ -103,3 +103,8 @@ Although the executed commands were legitimate administrative tools, Wazuh succe
 
 This exercise improved my understanding of endpoint visibility, process monitoring, and how seemingly normal commands can also be indicators of reconnaissance activity during a security investigation.
 
+## Navigation
+
+⬅️ Previous Lab: [Part 14C — Windows Discovery Activity Monitoring](../Part-14C-Windows-Discovery-Activity)
+
+➡️ Next Lab: [Part 15 — (Project Title)](../Part-15-Project-Name)
