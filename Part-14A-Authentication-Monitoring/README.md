@@ -60,3 +60,7 @@ This lab clearly demonstrated why authentication logs are among the first places
 
 ### Successful Logon (Event ID 4624)
 ![Successful Logon (Event ID 4624)](./screenshots/04-event-4624-successful-logon.png)
+
+## Navigation
+
+➡️ Next Lab: [Part 14B — User Activity PowerShell Monitoring](../Part-14B-User-Activity-PowerShell-Monitoring)
