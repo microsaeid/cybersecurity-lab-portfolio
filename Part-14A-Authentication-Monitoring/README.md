@@ -70,6 +70,13 @@ This lab clearly demonstrated why authentication logs are among the first places
 ### Successful Logon (Event ID 4624)
 ![Successful Logon (Event ID 4624)](./screenshots/04-event-4624-successful-logon.png)
 
+## Key Takeaways
+
+- Windows Security Event IDs provide valuable insight into authentication activity.
+- Failed logon attempts (Event ID 4625) can indicate password guessing or unauthorized access attempts.
+- Account lockout events (Event ID 4740) help identify repeated authentication failures.
+- Correlating authentication events in Wazuh improves visibility into user logon behavior.
+
 ## Navigation
 
 ➡️ Next Lab: [Part 14B — User Activity PowerShell Monitoring](../Part-14B-User-Activity-PowerShell-Monitoring)
