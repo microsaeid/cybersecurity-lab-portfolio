@@ -3,6 +3,15 @@
 ## The Goal
 I’m setting this up to get a better handle on how Windows handles authentication. The plan is to track successful logins, failed attempts, and those annoying account lockouts to see exactly what they look like inside Wazuh.
 
+| Category | Value |
+|----------|-------|
+| Platform | Windows 10 |
+| SIEM | Wazuh 4.14 |
+| Data Source | Windows Security Logs |
+| Focus | Windows Authentication Monitoring |
+| Event IDs | 4624, 4625, 4740 |
+| Lab Type | Active Directory Home Lab |
+
 ## Lab Setup
  * **Windows Server 2022** (Acting as my DC01)
  * **Windows 10** (Client machine)
