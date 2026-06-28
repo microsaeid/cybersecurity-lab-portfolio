@@ -77,6 +77,14 @@ This lab clearly demonstrated why authentication logs are among the first places
 - Account lockout events (Event ID 4740) help identify repeated authentication failures.
 - Correlating authentication events in Wazuh improves visibility into user logon behavior.
 
+## Conclusion
+
+This lab demonstrated how Windows authentication events can be collected and analyzed using Wazuh in an Active Directory home lab.
+
+By monitoring successful logons, failed logon attempts, and account lockout events, I gained practical experience investigating authentication activity and understanding how these events can support security monitoring and incident investigations.
+
+This exercise strengthened my understanding of Windows authentication telemetry and the importance of log analysis in a SOC environment.
+
 ## Navigation
 
 ➡️ Next Lab: [Part 14B — User Activity PowerShell Monitoring](../Part-14B-User-Activity-PowerShell-Monitoring)
