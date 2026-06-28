@@ -4,6 +4,15 @@
 
 This project documents my hands-on lab focused on monitoring Windows user activity and PowerShell execution using Wazuh. The goal is to understand how security analysts can detect suspicious behavior, investigate user actions, and analyze security events in a Windows environment.
 
+| Category | Value |
+|----------|-------|
+| Platform | Windows 10 |
+| SIEM | Wazuh 4.14 |
+| Data Source | Windows PowerShell Operational Log (Event ID 4104) |
+| Focus | PowerShell Activity Monitoring |
+| MITRE ATT&CK | T1059.001 |
+| Lab Type | Active Directory Home Lab |
+
 ## Objectives
 
 - Monitor Windows user activity
