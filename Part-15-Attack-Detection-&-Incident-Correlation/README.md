@@ -79,8 +79,12 @@ This lab focuses on correlating multiple security events to understand how SOC a
 
 **Previous Lab**
 
-← Part 14 — Authentication Monitoring
+## Navigation
+
+**Previous Lab**
+
+← [Part 14C — Windows Discovery Activity](../Part-14C-Windows-Discovery-Activity)
 
 **Next Lab**
 
-→ Part 16 — Windows Security Incident Investigation
+→ Part 16 — Real Incident Investigation in Wazuh
