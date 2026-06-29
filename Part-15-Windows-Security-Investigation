@@ -1,63 +1,86 @@
-# Part 15 — Windows Security Investigation
+# Attack Detection & Incident Correlation
 
 ## Overview
 
-This project demonstrates a hands-on security investigation in a Windows lab environment using Wazuh and Windows Event Logs. The objective is to identify suspicious activity, analyze relevant events, and document the investigation process.
+| Category    | Details                                                                          |
+| ----------- | -------------------------------------------------------------------------------- |
+| Lab Focus   | Attack Detection & Incident Correlation                                          |
+| Environment | Windows Active Directory Home Lab                                                |
+| SIEM        | Wazuh                                                                            |
+| Objective   | Learn how to correlate multiple security events into a single incident timeline. |
 
----
-
-## Objectives
-
-- Detect suspicious activity
-- Investigate Windows security events
-- Correlate related log entries
-- Document findings
-- Map activity to MITRE ATT&CK
+This lab focuses on correlating multiple security events to understand how SOC analysts investigate incidents using related logs instead of isolated alerts.
 
 ---
 
 ## Lab Environment
 
-| Component | Details |
-|-----------|---------|
-| SIEM | Wazuh |
-| Operating System | Windows 10 |
-| Domain Controller | Windows Server 2022 |
-| Hypervisor | Hyper-V |
-| Log Sources | Windows Event Logs |
+### Virtual Machines
+
+* Windows Server 2022 (Domain Controller)
+* Windows 10 Client
+
+### Operating Systems
+
+* Windows Server 2022
+* Windows 10
+
+### Monitoring Tools
+
+* Windows Event Logs
+* Sysmon
+* PowerShell Logging
+
+### SIEM
+
+* Wazuh
 
 ---
 
 ## Investigation Steps
 
-(To be completed)
+*To be completed after performing the lab.*
 
 ---
 
-## Detection Results
+## Detection & Analysis
 
-(To be completed)
+### Rule XXXX
+
+*(To be completed after performing the lab.)*
+
+---
+
+### Rule XXXX
+
+*(To be completed after performing the lab.)*
+
+---
+
+### Rule XXXX
+
+*(To be completed after performing the lab.)*
 
 ---
 
 ## MITRE ATT&CK Mapping
 
-(To be completed)
-
----
-
-## Screenshots
-
-(Add screenshots here)
+*To be completed after performing the lab.*
 
 ---
 
 ## Key Takeaways
 
-(To be completed)
+*To be completed after performing the lab.*
 
 ---
 
-## Conclusion
+## Navigation
 
-(To be completed)
+**Previous Lab**
+
+← Part 14 — Authentication Monitoring
+
+**Next Lab**
+
+→ Part 16 — Windows Security Incident Investigation
