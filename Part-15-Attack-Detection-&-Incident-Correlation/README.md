@@ -1,0 +1,86 @@
+# Part-15-Attack-Detection-&-Incident-Correlation
+
+## Overview
+
+| Category    | Details                                                                          |
+| ----------- | -------------------------------------------------------------------------------- |
+| Lab Focus   | Attack Detection & Incident Correlation                                          |
+| Environment | Windows Active Directory Home Lab                                                |
+| SIEM        | Wazuh                                                                            |
+| Objective   | Learn how to correlate multiple security events into a single incident timeline. |
+
+This lab focuses on correlating multiple security events to understand how SOC analysts investigate incidents using related logs instead of isolated alerts.
+
+---
+
+## Lab Environment
+
+### Virtual Machines
+
+* Windows Server 2022 (Domain Controller)
+* Windows 10 Client
+
+### Operating Systems
+
+* Windows Server 2022
+* Windows 10
+
+### Monitoring Tools
+
+* Windows Event Logs
+* Sysmon
+* PowerShell Logging
+
+### SIEM
+
+* Wazuh
+
+---
+
+## Investigation Steps
+
+*To be completed after performing the lab.*
+
+---
+
+## Detection & Analysis
+
+### Rule XXXX
+
+*(To be completed after performing the lab.)*
+
+---
+
+### Rule XXXX
+
+*(To be completed after performing the lab.)*
+
+---
+
+### Rule XXXX
+
+*(To be completed after performing the lab.)*
+
+---
+
+## MITRE ATT&CK Mapping
+
+*To be completed after performing the lab.*
+
+---
+
+## Key Takeaways
+
+*To be completed after performing the lab.*
+
+---
+
+## Navigation
+
+**Previous Lab**
+
+← Part 14 — Authentication Monitoring
+
+**Next Lab**
+
+→ Part 16 — Windows Security Incident Investigation
