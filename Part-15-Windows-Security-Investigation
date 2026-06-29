@@ -1,0 +1,63 @@
+# Part 15 — Windows Security Investigation
+
+## Overview
+
+This project demonstrates a hands-on security investigation in a Windows lab environment using Wazuh and Windows Event Logs. The objective is to identify suspicious activity, analyze relevant events, and document the investigation process.
+
+---
+
+## Objectives
+
+- Detect suspicious activity
+- Investigate Windows security events
+- Correlate related log entries
+- Document findings
+- Map activity to MITRE ATT&CK
+
+---
+
+## Lab Environment
+
+| Component | Details |
+|-----------|---------|
+| SIEM | Wazuh |
+| Operating System | Windows 10 |
+| Domain Controller | Windows Server 2022 |
+| Hypervisor | Hyper-V |
+| Log Sources | Windows Event Logs |
+
+---
+
+## Investigation Steps
+
+(To be completed)
+
+---
+
+## Detection Results
+
+(To be completed)
+
+---
+
+## MITRE ATT&CK Mapping
+
+(To be completed)
+
+---
+
+## Screenshots
+
+(Add screenshots here)
+
+---
+
+## Key Takeaways
+
+(To be completed)
+
+---
+
+## Conclusion
+
+(To be completed)
