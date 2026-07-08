@@ -33,6 +33,8 @@
 
 ## Navigation
 
-**Previous Lab:** Part 15 — Attack Detection & Incident Correlation
+← [Part 14C — Windows Discovery Activity](../Part-14C-Windows-Discovery-Activity)
 
+**Previous Lab:** Part 15 — Attack Detection & Incident Correlation
+← [Part 15 — Attack Detection & Incident Correlation](../Part 15 — Attack Detection & Incident Correlation)
 **Next Lab:** Part 17 — Threat Hunting & Incident Validation
