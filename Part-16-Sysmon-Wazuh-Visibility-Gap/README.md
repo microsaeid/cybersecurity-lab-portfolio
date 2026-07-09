@@ -6,22 +6,9 @@
 
 ## Lab Environment
 
-- **Domain:** `mylab.local`
-- **Domain Controller:** Windows Server 2022
-- **Client:** Windows 10
-- **SIEM:** Wazuh 4.14 (All-in-One)
-- **Monitoring Tools:**
-  - Sysmon
-  - Wazuh Agent
-  - Windows Event Viewer
-
 ## Investigation Steps
 
-*This section will be updated after each completed lab activity.*
-
 ## Detection & Analysis
-
-*Detection results and analysis will be documented after each verified finding.*
 
 ## MITRE ATT&CK Mapping
 
